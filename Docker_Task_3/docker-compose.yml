@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    image: prakash112/website:v1
+    ports:
+      - "80:80"
+    volumes:
+      - /home/prakash/Documents/Docker_Task3/nginx-data:/var/opt/nginx
+
